@@ -1,0 +1,31 @@
+.cards_list_link {
+  text-decoration: none;
+  color: #141414;
+}
+.cards_list_link_el {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.cards_list_link_el_container {
+  display: flex;
+  align-items: center;
+}
+.cards_list_link_el_pointer active {
+  margin-right: 20px;
+}
+.cards_list_link_el_pointer {
+  margin-right: 20px;
+}
+.cards_list_link_el_icon {
+  margin: 0 16px;
+}
+
+.hr-line {
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 1px solid #f1f3f9;
+}

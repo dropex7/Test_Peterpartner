@@ -1,0 +1,53 @@
+.app_container__header {
+  background-color: #ffffff;
+  margin-top: 16px;
+}
+.app_container__header_main {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 17px 145px;
+  color: #141414;
+}
+.app_container__card {
+  text-decoration: none;
+}
+.app_container__converter {
+  margin: 0 16px 50px 16px;
+}
+
+.app_container__converter_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_container__converter_buttons button {
+  width: 100px;
+  height: 100px;
+  background: #ffffff;
+  color: #8c9aae;
+  box-shadow: 0px 8px 16px rgba(139, 164, 187, 0.12);
+  border-radius: 16px;
+  border-color: transparent;
+}
+.app_container__converter_buttons button:focus {
+  outline: none;
+  color: #ffffff;
+  background: #0083e1;
+}
+.app_container__converter_button {
+  margin-right: 14px;
+}
+.app_container__converter_button_valut {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.app_container__converter_button_name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
